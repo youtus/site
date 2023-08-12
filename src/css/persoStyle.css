@@ -1,0 +1,15 @@
+.navbar-item:hover{
+    background-color: transparent !important; /* Supprime l'arrière-plan */
+    color: inherit !important; /* Utilise la couleur d'origine du texte */
+    text-decoration: none !important;/* Supprime le soulignement */
+    box-shadow: none !important;/* Supprime l'ombre de la boîte */
+    /* Vous pouvez ajouter d'autres styles ici pour réinitialiser d'autres modifications */
+}
+
+.navbar-item{
+    min-height:80px !important;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
